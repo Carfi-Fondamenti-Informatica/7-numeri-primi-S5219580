@@ -1,8 +1,9 @@
 #include <iostream>
 #include "lib.h"
 using namespace std;
-bool ris;
+
 int main(){
+  bool ris;
   int primo=0, i=1;
   cin>>primo;
   ris=primos(primo,i);
