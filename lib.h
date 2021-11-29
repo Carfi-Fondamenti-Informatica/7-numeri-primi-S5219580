@@ -1,2 +1,2 @@
 
-bool primos(int a,int i, bool ris);
+bool primos(int a,int i);
