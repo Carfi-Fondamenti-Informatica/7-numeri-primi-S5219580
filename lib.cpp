@@ -6,8 +6,10 @@ bool primos(int a,int i){
         primos(a,i);
         }
         else {
-            return false;
+            ris=false;
+            return ris;
         }
     }
-    return true;}
+    ris=true;
+    return ris;}
 
