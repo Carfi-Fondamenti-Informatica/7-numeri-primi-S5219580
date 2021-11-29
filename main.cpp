@@ -1,9 +1,9 @@
 #include <iostream>
 #include "lib.h"
 using namespace std;
+bool ris;
 int main(){
   int primo=0, i=1;
-  bool ris;
   cin>>primo;
   ris=primos(primo,i);
   if (ris==true){
