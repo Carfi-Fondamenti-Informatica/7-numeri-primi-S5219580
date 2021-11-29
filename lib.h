@@ -1,2 +1,2 @@
 
-bool primos(int a,int i);
+void primo(int a, int i,int &conta);
