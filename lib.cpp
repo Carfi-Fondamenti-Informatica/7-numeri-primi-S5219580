@@ -1,13 +1,14 @@
 #include "lib.h"
-bool primos(int a,int i){
+void primo(int a, int i,int &conta){
+    int c=0;
     i++;
-    if(a>1 and (a/2+1)>i){
-        if(a%i!=0){
-        primos(a,i);
+    if(a>1 and a>i) {
+        c=a %i;
+        if (c==0){
+            conta++;
         }
         else {
-            return false;
+            primo(a,i,conta);
         }
     }
-    return true;}
-
+}
