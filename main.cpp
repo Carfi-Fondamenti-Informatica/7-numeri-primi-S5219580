@@ -2,11 +2,15 @@
 #include "lib.h"
 using namespace std;
 int main(){
-int primo=0, i=1;
-cin>>primo;
-if (primos(primo,i)==true){
-  cout<<"numero primo";}
+  int primo=0, i=1;
+  bool ris;
+  cin>>primo;
+  ris=primos(primo,i);
+  if (ris==true){
+    cout<<"numero primo";
+  }
   else{
-      cout<<"numero non primo";}
+      cout<<"numero non primo";
+  }
   return 0;
 }
