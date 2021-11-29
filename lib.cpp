@@ -7,7 +7,6 @@ bool primos(int a,int i){
         }
         else {
             return false;
-            break;
         }
     }
     return true;}
